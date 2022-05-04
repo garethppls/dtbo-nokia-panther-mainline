@@ -1,7 +1,0 @@
-/dts-v1/;
-
-/ {
-	model = "Qualcomm Technologies, Inc. APQ8017-CDP";
-	qcom,board-id = <0x01 0x00>;
-	qcom,msm-id = <0x133 0x00>;
-};
