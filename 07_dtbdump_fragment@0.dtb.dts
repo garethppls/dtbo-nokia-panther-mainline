@@ -1,7 +1,7 @@
 /dts-v1/;
 
 / {
-	model = "QRD";
+	model = "Nokia 4.2 (panther)";
 	qcom,board-id = <11 2>;
 
 	fragment@0 {
@@ -11,28 +11,6 @@
 			qcom,mdss_dsi_sim_video {
 				qcom,mdss-dsi-panel-name = "Simulator video mode dsi panel";
 				qcom,mdss-dsi-panel-type = "dsi_video_mode";
-				qcom,mdss-dsi-virtual-channel-id = <0x00>;
-				qcom,mdss-dsi-stream = <0x00>;
-				qcom,mdss-dsi-bpp = <0x18>;
-				qcom,mdss-dsi-underflow-color = <0xff>;
-				qcom,mdss-dsi-border-color = <0x00>;
-				qcom,mdss-dsi-panel-hdr-enabled;
-				qcom,mdss-dsi-panel-hdr-color-primaries = <0x38a4 0x3c8c 0x7d00 0x4268 0x3c8c 0x7530 0x1f40 0xbb8>;
-				qcom,mdss-dsi-panel-peak-brightness = <0x401640>;
-				qcom,mdss-dsi-panel-blackness-level = <0xc9e>;
-				qcom,mdss-dsi-traffic-mode = "non_burst_sync_event";
-				qcom,mdss-dsi-bllp-eof-power-mode;
-				qcom,mdss-dsi-bllp-power-mode;
-				qcom,mdss-dsi-lane-0-state;
-				qcom,mdss-dsi-lane-1-state;
-				qcom,mdss-dsi-lane-2-state;
-				qcom,mdss-dsi-lane-3-state;
-				qcom,mdss-dsi-t-clk-post = <0x04>;
-				qcom,mdss-dsi-t-clk-pre = <0x1b>;
-				qcom,mdss-dsi-dma-trigger = "trigger_sw";
-				qcom,mdss-dsi-mdp-trigger = "none";
-				qcom,mdss-dsi-reset-sequence = <0x01 0x00 0x00 0x00 0x01 0x00>;
-				qcom,panel-ack-disabled;
 				phandle = <0x11>;
 			};
 		};
