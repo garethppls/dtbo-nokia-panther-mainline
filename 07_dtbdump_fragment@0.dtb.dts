@@ -2,17 +2,14 @@
 
 / {
 	model = "Nokia 4.2 (panther)";
+	compatible = "nokia,panther", "qcom,sdm439";
 	qcom,board-id = <11 2>;
 
 	fragment@0 {
-		target = <0xffffffff>;
+		target-path="/soc/chosen";
 
 		__overlay__ {
-			qcom,mdss_dsi_sim_video {
-				qcom,mdss-dsi-panel-name = "Simulator video mode dsi panel";
-				qcom,mdss-dsi-panel-type = "dsi_video_mode";
-				phandle = <0x11>;
-			};
+			bootargs-ext="";
 		};
 	};
 
