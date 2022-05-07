@@ -9,7 +9,7 @@
 		target-path="/soc/chosen";
 
 		__overlay__ {
-			bootargs-ext="";
+			bootargs_ext="test-here";
 		};
 	};
 
